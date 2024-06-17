@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PWA</title>
+    <script type="module" src="components/NavbarElement.js"></script>
+    <script type="module" src="components/MainElement.js"></script>
+    <script type="module" src="components/ModalFormElement.js"></script>
+    <script type="module" src="components/MenuElement.js"></script>
+    <script type="module" src="components/AboutElement.js"></script>
+    <script type="module" src="components/ContactElement.js"></script>
+    <style>body { margin: 0; padding: 0; min-height: 100vh;}</style>
+</head>
+<body>
+    
+    <main-element>
+        <navbar-element slot="navbar"></navbar-element>
+        <menu-element slot="menu"></menu-element>
+        <modal-form slot="form"></modal-form>
+        <about-element slot="about"></about-element>
+        <contact-element slot="contact"></contact-element>
+    </main-element>
+    
+</body>
+</html>

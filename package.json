@@ -1,0 +1,19 @@
+{
+  "name": "cells_project_pwa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "web-dev-server --node-resolve --open --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Edgar Osorio",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.1",
+    "lit": "^2.8.0"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.4.5"
+  }
+}

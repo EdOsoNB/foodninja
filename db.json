@@ -1,0 +1,19 @@
+{
+  "recetas": [
+    {
+      "id": "caea",
+      "title": "Recipe 1",
+      "ingredients": "Ingredients"
+    },
+    {
+      "id": "568e",
+      "title": "Recipe 2",
+      "ingredients": "Ingredients"
+    },
+    {
+      "id": "217f",
+      "title": "asda",
+      "ingredients": "sd"
+    }
+  ]
+}
